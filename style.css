@@ -1,0 +1,36 @@
+.btncls{
+    text-align: center;
+    padding: 1%;
+}
+
+/* .container,.slider,.btncls{
+    border: 1px solid gray;
+} */
+
+.cimg{
+    height: 900px;
+    position: absolute;
+    /* left: 32%; */
+    /* width: 100%; */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+    
+}
+
+.slider{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px auto; */
+}
+
+.btn{
+    font-size: 30PX;
+}
+
+.cimg:first-child{
+    display: block;
+}
